@@ -1,8 +1,8 @@
-# Marguerite Releases
+﻿# Marguerite Releases
 
 **Marguerite 桌面工作台的官方安装包仓库。** 本仓库不含源码——源码在
 [Marguerite](https://github.com/KLJyouth1/Marguerite)，配套模型在
-[OmniPilot](https://github.com/KLJyouth1/OmniPilot)。
+[KLJyouth-office-Modle](https://github.com/KLJyouth1/KLJyouth-office-Modle)。
 
 所有二进制发布在 **[Releases](https://github.com/KLJyouth1/Marguerite-Releases/releases)**。
 
@@ -42,9 +42,10 @@ Get-FileHash .\Marguerite_0.2.13_x64_en-US.msi -Algorithm SHA256
 |---|---|
 | [Marguerite](https://github.com/KLJyouth1/Marguerite) | 工作台源码（Rust 引擎 / TUI / Tauri 桌面端 / 回环 Web 控制台 / Python 侧车） |
 | **Marguerite Releases**（本仓库） | 安装包与发布产物 |
-| [OmniPilot](https://github.com/KLJyouth1/OmniPilot) | 配套本地智能体模型：fp16 GGUF / safetensors、7-Zip 分卷 |
+| [KLJyouth-office-Modle](https://github.com/KLJyouth1/KLJyouth-office-Modle) | 配套本地智能体模型：fp16 GGUF / safetensors、7-Zip 分卷 |
 
 ## 第三方许可
 
 安装包内含第三方组件；许可清单见源码仓库 `THIRD_PARTY_NOTICES` 与
 `pyengine/THIRD_PARTY_NOTICES.md`。
+
