@@ -10,14 +10,18 @@
 
 | 版本 | 状态 | 文件 |
 |---|---|---|
-| **0.2.17** | 最新 | `Marguerite_0.2.17_x64_en-US.msi`（WiX，372.7 MB）<br>`Marguerite_0.2.17_x64-setup.exe`（NSIS，352.8 MB） |
+| **0.2.17** | 最新 | `MargueriteDownloader.exe`（视频下载器，循环播放片头，播完一遍才进安装）<br>`MargueriteSetup.exe`（安装界面本体）<br>`Marguerite_0.2.17_x64_en-US.msi`（WiX，372.7 MB）· `Marguerite_0.2.17_x64-setup.exe`（NSIS，352.8 MB） |
 | 0.2.13 | 历史 | `Marguerite_0.2.13_x64_en-US.msi`（WiX，251.7 MB）<br>`Marguerite_0.2.13_x64-setup.exe`（NSIS，240.5 MB） |
 | 0.2.12 | 历史 | `Marguerite_0.2.12_x64_en-US.msi`（251.1 MB）<br>`Marguerite_0.2.12_x64-setup.exe`（240.0 MB） |
 
-0.2.17 的主要变化：插件 / MCP / 工具 / 技能四类扩展的独立管理界面（启停、重载、MCP 子进程
-真实调用），能力路由（能力卡 + 18 项固定工具面 + 反脚本纠偏），会话可移植（JSON / Markdown
-无损导入导出）与任务复盘，多项目工作区与终端多根，电脑操控的 UIA 结构化动作矩阵与
-observe → act → verify 回执。逐条说明见源码仓库的 `CHANGELOG.md`。
+**从哪里开始**：先下 `MargueriteDownloader.exe`。它会循环播放品牌片、直连本仓库下载安装包，
+片头播完一整遍后才打开安装界面；也可以用 `MargueriteSetup.exe` 直接走安装界面。
+
+0.2.17 的主要变化：视频下载器与电影感安装界面（镜头随步骤切换、下载前校验 SHA256、
+安装中可取消并真正终止子进程），桌面端更新面板接入同一套下载器；插件 / MCP / 工具 / 技能
+四类扩展的独立管理界面，能力路由（能力卡 + 18 项固定工具面 + 反脚本纠偏），会话可移植
+（JSON / Markdown 无损导入导出）与任务复盘，多项目工作区与终端多根，电脑操控的 UIA
+结构化动作矩阵与 observe → act → verify 回执。逐条说明见源码仓库的 `CHANGELOG.md`。
 
 ## 下载与安装
 
