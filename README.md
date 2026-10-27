@@ -10,12 +10,14 @@
 
 | 版本 | 状态 | 文件 |
 |---|---|---|
-| **0.2.13** | 最新 | `Marguerite_0.2.13_x64_en-US.msi`（WiX，251.7 MB）<br>`Marguerite_0.2.13_x64-setup.exe`（NSIS，240.5 MB） |
+| **0.2.17** | 最新 | `Marguerite_0.2.17_x64_en-US.msi`（WiX，372.7 MB）<br>`Marguerite_0.2.17_x64-setup.exe`（NSIS，352.8 MB） |
+| 0.2.13 | 历史 | `Marguerite_0.2.13_x64_en-US.msi`（WiX，251.7 MB）<br>`Marguerite_0.2.13_x64-setup.exe`（NSIS，240.5 MB） |
 | 0.2.12 | 历史 | `Marguerite_0.2.12_x64_en-US.msi`（251.1 MB）<br>`Marguerite_0.2.12_x64-setup.exe`（240.0 MB） |
 
-0.2.13 的主要变化：岛屿升级为可玩的 3D 开放世界、GLB 资产热加载闭环、会话级思考强度/上下文
-持久化，并修掉三个真实缺陷（doctor 项数断言、gui 编译错误、worktree 的 `GIT_*` 环境泄漏）。
-逐条说明见源码仓库的 `CHANGELOG.md`。
+0.2.17 的主要变化：插件 / MCP / 工具 / 技能四类扩展的独立管理界面（启停、重载、MCP 子进程
+真实调用），能力路由（能力卡 + 18 项固定工具面 + 反脚本纠偏），会话可移植（JSON / Markdown
+无损导入导出）与任务复盘，多项目工作区与终端多根，电脑操控的 UIA 结构化动作矩阵与
+observe → act → verify 回执。逐条说明见源码仓库的 `CHANGELOG.md`。
 
 ## 下载与安装
 
@@ -32,7 +34,7 @@
 每个 Release 附带 `SHA256SUMS.txt`；仓库根目录也保留一份汇总。核对方式：
 
 ```powershell
-Get-FileHash .\Marguerite_0.2.13_x64_en-US.msi -Algorithm SHA256
+Get-FileHash .\Marguerite_0.2.17_x64_en-US.msi -Algorithm SHA256
 # 与 SHA256SUMS.txt 中同名行比对（大小写不敏感）
 ```
 
